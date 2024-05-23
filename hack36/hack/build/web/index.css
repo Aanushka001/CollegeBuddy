@@ -1,0 +1,412 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14-Mar-2024, 8:35:44 pm
+    Author     : manis
+*/
+/*header {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(50, 80, 86);
+    text-align: right;  Aligning text to the right 
+    
+}
+
+
+.college-buddy {
+    margin-right: auto; 
+    align-content: left;
+    font-size: 1.5em;  Example font size 
+    font-weight: bold;  Example font weight 
+    padding: 10px;  Example padding 
+}
+
+
+
+.navbar a {
+    float: right;
+    font-size: 20px;
+    color: rgb(243, 243, 243);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(70, 117, 166);
+}
+
+footer {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+    height: 70px;
+}
+
+.list a {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list a:hover {
+    color: aqua;
+    background-color: rgb(86, 62, 50);
+}*/
+/*header {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(50, 80, 86);
+    display: flex;  Use flexbox for layout 
+    align-items: center;  Align items vertically in the center 
+    padding: 10px;  Add padding for spacing 
+}
+
+.college-buddy-main {
+    flex-grow: 1;  Take up remaining space 
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;  Text color 
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: rgb(243, 243, 243);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(70, 117, 166);
+}
+
+footer {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+    height: 70px;
+}
+
+.list a {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list a:hover {
+    color: aqua;
+    background-color: rgb(86, 62, 50);
+}*/
+body {
+    background-image: url('kra.jpg');
+    background-size: cover;
+    
+}
+
+.header {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    background-color: rgb(225, 26, 16);
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding as needed */
+    z-index: 999; /* Ensure it stays above other content */
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(225, 26, 16);
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.college-buddy-main {
+    flex-grow: 1; /* Take up remaining space */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white; /* Text color */
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: rgb(243, 243, 243);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(70, 117, 166);
+}
+
+footer {
+    background-image: url(https://th.bing.com/th/id/OIP.RMNgwwsWJYkXUNLo4RAbYAHaDf?rs=1&pid=ImgDetMain);
+    height: 70px;
+}
+
+.list a {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list a:hover {
+    color: aqua;
+    background-color: rgb(86, 62, 50);
+}
+
+.section {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section li {
+    margin-bottom: 5px;
+}
+
+/* Different background colors for each section */
+#notes { background-color: #ffffff; }
+#finance { background-color: #ffffff; }
+#events { background-color: #f6f6f6; }
+#internship { background-color: #f3f3f3; }
+#about { background-color: #f0f0f0; }
+#contact { background-color: #ececec; }
+
+/* Styles for course materials */
+.course-material {
+    display: inline-block;
+    width: 250px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #fffaf9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+}
+
+.loan-material{
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; 
+}
+
+.scholarship-material{
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; 
+
+}
+
+.event-material{
+    display: inline-block;
+    width: 250px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+
+}
+
+.inter-material{
+    display: inline-block;
+    width: 250px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+
+}
+
+/* Add animations to material folder */
+.course-material,
+.loan-material,
+.scholarship-material,
+.event-material,
+.inter-material {
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+.course-material:hover,
+.loan-material:hover,
+.scholarship-material:hover,
+.event-material:hover,
+.inter-material:hover {
+    transform: scale(1.05); /* Scale up the size on hover */
+}
+
+/* Add stylish design to material folder */
+.course-material,
+.loan-material,
+.scholarship-material,
+.event-material,
+.inter-material {
+    position: relative;
+    overflow: hidden;
+}
+
+.course-material::before,
+.loan-material::before,
+.scholarship-material:hover::before,
+.event-material::before,
+.inter-material::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Add smooth transition for opacity */
+}
+
+.course-material:hover::before,
+.loan-material:hover::before,
+.scholarship-material:hover::before,
+.event-material:hover::before,
+.inter-material:hover::before {
+    opacity: 1; /* Show overlay on hover */
+}
+
+/* Set up smooth transition for all elements */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Add animation to the header */
+.header {
+    animation: fadeInDown 0.5s ease;
+}
+
+/* Add animation to the navigation bar */
+.navbar {
+    animation: slideInDown 0.5s ease;
+}
+
+/* Add animation to the content sections */
+.section {
+    animation: fadeInUp 0.5s ease;
+}
+
+/* Animation keyframes for header */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation keyframes for navigation bar */
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation keyframes for content sections */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add border color to section and its variants */
+.section,
+#notes,
+#finance,
+#events,
+#internship,
+#about,
+#contact {
+    border: 1px solid #333; /* Dark border color */
+}
+
+/* Add border color to course-material and its variants */
+.course-material,
+#medical-material,
+#mechanical-material,
+#civil-material,
+#mba-material,
+#loan-material,
+#scholarship-material,
+#Dhoom-material,
+#Projection-material,
+#Convocation-material,
+#hackathon-material,
+#startup-internships,
+#technology-internships,
+#healthcare-internships,
+#research-internships {
+    border: 1px solid #cda814; /* Dark border color */
+    background-color: #d1b578; /* Deep blue background color */
+    border: 1px solid #b96006; /* Dark border color */
+
+}
